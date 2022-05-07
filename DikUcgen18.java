@@ -10,13 +10,14 @@ public class DikUcgen18 {
         kenar1 = input.nextDouble();
         System.out.print("Dik üçgenin 2.dik kenarının uzunluğunu giriniz: ");
         kenar2 = input.nextDouble();
-        alan = ((kenar1 * kenar1) + (kenar2 * kenar2)) / 2;
+
+        alan = (kenar1 * kenar2) / 2;
         System.out.println("Üçgenin alanı : " + alan);
-        hipotenus = Math.sqrt(alan*2);
+        hipotenus = Math.sqrt((kenar1*kenar1) + (kenar2*kenar2));
         System.out.println("Hipotenüs'ün uzunluğu" + hipotenus);
+
         cevre = (kenar1 + kenar2 + hipotenus);
         System.out.println("Üçgenin çevresi" + cevre);
-
 
     }
 }
