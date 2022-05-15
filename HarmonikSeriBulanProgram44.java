@@ -9,7 +9,7 @@ public class HarmonikSeriBulanProgram44 {
         System.out.print("Bir sayı giriniz : ");
         int sayi = input.nextInt();
         for(int i=1; i<=sayi; i++){
-            sonuc += (1.05/i);
+            sonuc += (1.0/i);
         }
         System.out.println("Girdiğiniz sayının harmonik seri sonucu : " + sonuc);
 } }
