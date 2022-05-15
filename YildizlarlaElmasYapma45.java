@@ -14,11 +14,13 @@ public class YildizlarlaElmasYapma45 {
         }
             System.out.println(" ");
         } //üçgen tamam, şimdi de ters üçgeni yapıp elmas şekli çıkarmak lazım.
-        for (int ii =(n - 1); ii>= 1;ii--){
-            for(int boslukk = (n - ii); boslukk >=1; boslukk--){
+        for (int ii=1;ii<=n;ii++){
+            for (int boslukk=1; boslukk<=ii; boslukk++){
                 System.out.print(" ");
-            } for(int yy=1; yy <= (2* ii) -1; yy++){
+            }
+            for (int yy=1;yy<=2*(n-ii)-1; yy++){
                 System.out.print("*");
-            } System.out.println(" ");
+            }
+            System.out.println();
         }
 } }
