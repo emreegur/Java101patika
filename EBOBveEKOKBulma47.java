@@ -28,7 +28,7 @@ public class EBOBveEKOKBulma47 {
             }
             i++;
         }
-        //int ekok = (n1*n2)/ebob;
+        //int ekok = (n1*n2)/ebob;  (2. Ekok bulma yolu)
 
         System.out.println("Sayıların EBOB'u: " + ebob + "\nSayıların EKOK'u: " + ekok);
 
