@@ -10,7 +10,6 @@ public class InputMaxMinArray70 {
         System.out.print("Girilen Sayı :");
         int value = input.nextInt();
         Arrays.sort(list);
-        System.out.println(Arrays.toString(list));
 
         int min = list[0];
         int max = list[0];
